@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+h1,h2 {
+    color: #000000;
+    margin-top: 20px;
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0.5rem;
+    text-align: start;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #000000;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+.submit-btn {
+    margin-top: 9%;
+    margin-bottom: 10%;
+    width: 100%;
+    padding: 1rem;
+    background-color: #ff8521;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #f86f00;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+}
+
+#logo {
+    margin-top: -10%;
+    margin-bottom: -15%;
+    width: 60%;
+    text-align: center;
+}
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
